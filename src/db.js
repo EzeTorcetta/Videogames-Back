@@ -9,7 +9,7 @@ const sequelize = new Sequelize(DB_DEPLOY, {
   logging: false, // para que no me muestre todos los cambios de sequelize en consola
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   // dialect: 'postgres',
-  ssl: true, // Agrega esta opción para habilitar SSL/TLS
+  // ssl: true, // Agrega esta opción para habilitar SSL/TLS
 });
 const basename = path.basename(__filename);
 
